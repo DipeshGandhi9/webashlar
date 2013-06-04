@@ -1,0 +1,62 @@
+ <!-- Carousel    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <%= image_tag("image1.jpg", alt: "image1") %>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Java World</h1>
+              <p class="lead">Gwt, Gxt....</p>
+              <%= link_to "Sign up today", "#" , :class=> "btn btn-large btn-primary" %> 
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag("image2.jpg", alt: "image2") %>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Scripting World</h1>
+              <p class="lead">Coffe-script, AngularJs, D3.Js, BootStrap.Js....</p>
+              <%= link_to "Learn more","#" ,:class=>"btn btn-large btn-primary" %>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag("image4.jpg", alt: "image4") %>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Dot Net World</h1>
+              <p class="lead">Vb.Net, C#.Net, Asp.Net, MVC.......</p>
+              <%= link_to "Comment" , "#", :class=>"btn btn-large btn-primary" %>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel --> 
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="span4">
+          <%= image_tag("java.png", alt: "java" , :class => "img-circle") %>
+          <h2>Java Corner</h2>
+          <p>Here we work on world class Java web Application providing light weight Application built exploring full use of <strong> Java Swing, Web services, Jsp Pages, Servlets Google Web Toolkit, Extented Google Web Toolkit, Amazon Web services </strong> to provide best satisfaction to the customer.</p>
+          <p><a class="btn" href="work.html">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <%= image_tag("script.png", alt: "script" , :class => "img-circle") %>
+          <h2>Scripting Corner</h2>
+          <p>We also remain aware of the latest scripting revolutions and make use of it. some of the technologies we are focusing now is <strong> coffe script, Angular Js, BootstrapJs, Mobile JQuery, Responsive UI</strong> Etc. Aim is to create light weight applications which load quickly and make most use of it.</p>
+          <p><a class="btn" href="work.html">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <%= image_tag("net.png", alt: "net" , :class => "img-circle") %>
+          <h2>.Net Corner</h2>
+          <p>.Net is also a part of our development working in <strong> Vb, C#, SilverLight, Asp .Net with database as SQl server along with MVC framework </strong> to create eye capturing web sites is the main motto we also promote use of Javascript and jQuery to add effects to WebPage.</p>
+          <p><a class="btn" href="work.html">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+    </div> 
